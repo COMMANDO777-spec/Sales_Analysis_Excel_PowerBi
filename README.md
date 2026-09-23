@@ -123,6 +123,8 @@ The dashboard compares total sales across product categories, including:
 
 The visualization also helped identify a **category-standardization issue** where `Electronics` and `Electronic` appear separately. This is an example of a data-quality issue that can affect business reporting.
 
+<img width="1429" height="803" alt="Screenshot 2026-09-23 161613" src="https://github.com/user-attachments/assets/7a0e0b38-3034-4b96-a060-20f4fff04539" />
+
 ---
 
 ### Sales by City
@@ -147,6 +149,9 @@ The dashboard shows cities including:
 * Unknown
 
 This allows sales performance to be compared geographically.
+
+<img width="1429" height="807" alt="Screenshot 2026-09-23 161708" src="https://github.com/user-attachments/assets/b4d79faa-6522-445f-ba81-de4df7334504" />
+
 
 ---
 
@@ -179,6 +184,10 @@ The current dashboard shows:
 | Card           |     19 | 39.58% |
 | Cash           |      7 | 14.58% |
 
+
+<img width="1427" height="801" alt="Screenshot 2026-09-23 161747" src="https://github.com/user-attachments/assets/088d75c4-f6f7-4bbd-b16f-4e5b6223ddd5" />
+
+
 ---
 
 ## DAX Measures
@@ -209,6 +218,9 @@ DIVIDE([Total Sales], [Total Orders])
 Total Customers =
 DISTINCTCOUNT(Cleaned_Sales[Customer_ID])
 ```
+
+<img width="1428" height="805" alt="Screenshot 2026-09-23 161820" src="https://github.com/user-attachments/assets/4f1c483a-a31e-458a-8519-af216a836443" />
+
 
 ---
 
